@@ -18,20 +18,50 @@
         </div>
 
         <ul>
-            <li> <a href="#"> Página inicial </a> </li>
-            <li> <a href="#"> Sobre </a> </li>
-            <li> <a href="#"> Preços </a> </li>
-            <li> <a href="#"> Serviços </a> </li>
+            <li> <a href="../empresa-ti-vitor/index.html"> Página inicial </a> </li>
+            <li> <a href="../empresa-ti-vitor/about.html"> Sobre </a> </li>
+            <li> <a href="../empresa-ti-vitor/prices.html"> Preços </a> </li>
+            <li> <a href="../empresa-ti-vitor/services.html"> Serviços </a> </li>
         </ul>
 
     </nav>
     <section class="banner">
-        <div class="texto">
-            <h1 class="titulo">Uma frase impactante da sua</h1>
-            <h2 class="sub_titulo">deve ser inserida aqui</h2>
-
+        <div class="imagem">
+            <div class="imglogo">
+                <a href="../empresa-ti-vitor/index.html"><img class="logo" id="build"
+                        src="../empresa-ti-vitor/img/robotecaLogo.png" alt="LOGO" title="Roboteca"></a>
+            </div>
+            <div class="texto">
+                <h1 class="titulo">Sobre nós</h1>
+            </div>
+        </div>
+        <div class="description">
+            <p>A Roboteca é uma empresa de desenvolvimento de tecnologia educativa. Criada em 2023, tem como principal
+                objetivo promover o desenvolvimento educacional através da robótica de maneira acessível.</p>
+        </div>
+        <div class="download">
+            <button type="submit"><a id="download" href="../empresa-ti-vitor/files/Edital Roboteca.docx"
+                    download="Edital Roboteca.docx">Baixar edital</a></button>
         </div>
     </section>
+    <div class="newsletter">
+        <h1>Roboteca News</h1>
+        <form method="post" action="script.js">
+            <input class="textput" type="text" placeholder="   nome" required>
+            <input class="textput" type="email" placeholder="   email" required>
+            <input class="subput" onclick="regBox()" type="submit" value="CADASTRAR">
+        </form>
+    </div>
+    <footer>
+        <div class="contats">
+            <h2 class="ftitle">Contatos</h1>
+                <ul class="conlist">
+                    <li>(12) 3666-666</li>
+                    <li>(12) 9 9999-9999</li>
+                    <li>roboteca@mail.com</li>
+                </ul>
+        </div>
+    </footer>
 </body>
 
 </html>

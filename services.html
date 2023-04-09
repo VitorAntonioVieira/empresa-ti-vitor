@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="img/robotecaIcon.png">
-    <link rel="stylesheet" href="css/services.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Roboteca</title>
 </head>
 
@@ -18,20 +18,40 @@
         </div>
 
         <ul>
-            <li> <a href="#"> Página inicial </a> </li>
-            <li> <a href="#"> Sobre </a> </li>
-            <li> <a href="#"> Preços </a> </li>
-            <li> <a href="#"> Serviços </a> </li>
+            <li> <a href="../empresa-ti-vitor/index.html"> Página inicial </a> </li>
+            <li> <a href="../empresa-ti-vitor/about.html"> Sobre </a> </li>
+            <li> <a href="../empresa-ti-vitor/prices.html"> Preços </a> </li>
+            <li> <a href="../empresa-ti-vitor/services.html"> Serviços </a> </li>
         </ul>
 
     </nav>
     <section class="banner">
+        <div class="imglogo">
+            <img class="logo" id="build" src="../empresa-ti-vitor/img/robotecaLogo.png" alt="LOGO" title="Roboteca">
+        </div>
         <div class="texto">
-            <h1 class="titulo">Uma frase impactante da sua</h1>
-            <h2 class="sub_titulo">deve ser inserida aqui</h2>
-
+            <h1 class="titulo">Roboteca</h1>
+            <h2 class="sub_titulo">Muito mais que robôs.</h2>
         </div>
     </section>
+    <div class="newsletter">
+        <h1>Roboteca News</h1>
+        <form method="post" action="script.js">
+            <input class="textput" type="text" placeholder="   nome" required>
+            <input class="textput" type="email" placeholder="   email" required>
+            <input class="subput" onclick="regBox()" type="submit" value="CADASTRAR">
+        </form>
+    </div>
+    <footer>
+        <div class="contats">
+            <h2 class="ftitle">Contatos</h1>
+                <ul class="conlist">
+                    <li>(12) 3666-666</li>
+                    <li>(12) 9 9999-9999</li>
+                    <li>roboteca@mail.com</li>
+                </ul>
+        </div>
+    </footer>
 </body>
 
 </html>

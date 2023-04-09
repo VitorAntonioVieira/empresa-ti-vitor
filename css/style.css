@@ -5,6 +5,10 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+.areas a:any-link{
+    text-decoration: none;
+    color: #272727;
+}
 nav{
     background-image: linear-gradient(to right, rgb(0, 0, 0) 55%, rgb(254, 106, 148), rgb(69, 98, 177));
     padding: 10px 60px;
@@ -70,9 +74,10 @@ footer{
     font-weight: 600;
 }
 .texto .sub_titulo{
-    color: #fff;
+    color: #272727;
     font-size: 58px;
     font-weight: 600;
+    margin-bottom: 50px;
 }
 .texto .botoes{
     margin-top: 30px;
@@ -102,6 +107,29 @@ footer{
 .texto .botoes button.overlay{
     background: white;
     color: black;
+    animation: vibrar 0.5s ease-in-out infinite both;
+}
+.areas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.infobox{
+    width: 250px;
+    height: 310px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: #272727;
+    margin: 50px;
+}
+.infobox h3{
+    margin-top: 30px;
+}
+.infobox p{
+    text-align: justify;
+    padding: 25px;
+}
+.infobox:hover{
     animation: vibrar 0.5s ease-in-out infinite both;
 }
 .newsletter{
